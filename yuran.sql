@@ -18,7 +18,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 --
 -- Database: `kolej`
 --
-DROP DATABASE `kolej`;
+DROP DATABASE IF EXISTS `kolej`;
 CREATE DATABASE `kolej` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `kolej`;
 
