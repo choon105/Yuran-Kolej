@@ -9,7 +9,7 @@
 </head>
 <body>
 	<center>
-		<form method="post" action="pros_tambah.php">
+		<form method="post" action="pros_tambah.php" >
 		<table border="1" cellpadding="6" cellspacing="0">
 			<tr>
 				<td>No Kad Pengenalan</td>
