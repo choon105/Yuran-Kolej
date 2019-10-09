@@ -21,7 +21,7 @@
 			<?php 
 			    // getting fees info from db
 				include 'config.php';
-				$sql="SELECT * FROM yuran"; //sql statement
+				$sql="SELECT * FROM yuran"; //sql statement to read data
 				$display = mysqli_query($connect, $sql);
 				$bil = 1;
 				// displaying fees info

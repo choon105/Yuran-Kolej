@@ -3,8 +3,9 @@
  //getting ag from url
 $kp = $_GET['nokp'];
  
-//selecting data associated with this particular ag
-$papar = mysqli_query($connect, "SELECT * FROM yuran WHERE noKP='$kp'");
+//selecting data associated with this particular kp
+$sql = "SELECT * FROM yuran WHERE noKP='$kp'";
+$papar = mysqli_query($connect, $sql);
  
 while($res = mysqli_fetch_array($papar))
 {
@@ -23,7 +24,7 @@ while($res = mysqli_fetch_array($papar))
 </head>
 <body>
 	<center>
-		<form method="post" action="pros_kemaskini.php">
+		<form method="post" action="pros_kemaskini.php"> 
 		<table border="1" cellpadding="6" cellspacing="0">
 			<tr>
 				<td>No. Kad Pengenalan</td>
