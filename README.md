@@ -8,7 +8,7 @@ You can install this app easily onto your localserver, like Xampp.
 <ol type="1">
   <li>  Just copy all the files into htdocs  
   <li>  Start your local server: Apache and MySQL or MariaDB.
-  <li>  Import the database yuran.sql with PhpMyAdmin.
+  <li>  Import the database yuran.sql with PhpMyAdmin. Db named 'kolej' and table 'yuran' will be created automatically.
   <li>  Run it by entering "localhost/yuran-kolej" into the url of your browser.
 </ul>
   
